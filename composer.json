@@ -1,0 +1,23 @@
+{
+  "name": "soatok/sodium_crypto_bind",
+  "description": "Alternate API to crypto_box_seal() that also binds the messages to the sender.",
+  "keywords": ["cryptography"],
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Soatok Dreamseeker",
+      "role": "Developer",
+      "homepage": "https://twitter.com/SoatokDhole"
+    }
+  ],
+  "autoload": {
+    "files": ["lib/crypto_bind.php"]
+  },
+  "require": {
+    "php": "^7.2|^8",
+    "paragonie/sodium_compat": "^1.8"
+  },
+  "require-dev": {
+    "vimeo/psalm": "^3"
+  }
+}
